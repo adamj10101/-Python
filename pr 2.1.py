@@ -6,4 +6,4 @@ if n <= 0:
     print("Число должно быть натуральным.")
 else:
     for i in range(n, 0, -1):
-        print(''.join(str(j) for j in range(1, i + 1)))5
+        print(''.join(str(j) for j in range(1, i + 1)))
