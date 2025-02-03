@@ -3,7 +3,5 @@
 n = int(input("Введите натуральное число n: "))
 
 for i in range(n, 0, -1):
-    # Создаем строку с числами от 1 до i и обратно
-    line = ''.join(str(j) for j in range(i - 1, 0, -1)) + ''.join(str(j) for j in range(1, i + 1))
-    # Добавляем отступы слева для каждой строки
-    print('  ' * (n - i) + line)
+    a = ''.join(str(j) for j in range(i - 1, 0, -1)) + ''.join(str(j) for j in range(1, i + 1))
+    print('  ' * (n - i) + a)
